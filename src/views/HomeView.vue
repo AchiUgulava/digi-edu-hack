@@ -102,6 +102,8 @@ import LayoutGuest from '@/layouts/LayoutGuest.vue'
              MindSetter stands as a transformative force in the evolving landscape of digital learning.
         </p>
 
+
+        
        <div class="button-div">
 <button  type="submit" >
     learn more
