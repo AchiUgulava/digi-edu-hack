@@ -372,8 +372,6 @@ Welcome to the future of education—Welcome to MindSetter, where continuous dev
 .background-abouts{
     width: 80%;
     height: 260px;
-
-    display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
