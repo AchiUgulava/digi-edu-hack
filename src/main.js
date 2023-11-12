@@ -4,14 +4,14 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import { useMainStore } from '@/stores/main.js'
-
+import Vue3TouchEvents from 'vue3-touch-events';
 import './css/main.css'
 
 // Init Pinia
 const pinia = createPinia()
 
 // Create Vue app
-createApp(App).use(router).use(pinia).mount('#app')
+createApp(App).use(router).use(pinia).use(Vue3TouchEvents,{swipeTolerance: 10,}).mount('#app');
 
 // Init main store
 const mainStore = useMainStore(pinia)

@@ -10,27 +10,40 @@ import FormControl from '@/components/FormControl.vue'
 import BaseButton from '@/components/BaseButton.vue'
 import BaseButtons from '@/components/BaseButtons.vue'
 import LayoutGuest from '@/layouts/LayoutGuest.vue'
+import { useMainStore } from '@/stores/main'
+
+const mainStore = useMainStore()
 
 const form = reactive({
-  login: 'john.doe',
-  pass: 'highly-secure-password-fYjUw-',
+    name:'',
+  email: '',
+  pass: '',
   remember: true
 })
 
 const router = useRouter()
 
 const submit = () => {
-  router.push('/dashboard')
+    mainStore.setUser(form)
+  router.push('/setup')
 }
 </script>
 
 <template>
   <LayoutGuest>
-    <SectionFullScreen v-slot="{ cardClass }" >
+    <SectionFullScreen v-slot="{ cardClass }">
       <CardBox :class="cardClass" is-form @submit.prevent="submit">
-        <FormField label="Login" help="Please enter your login">
+        <FormField label="Login" help="Please choose your Username">
           <FormControl
-            v-model="form.login"
+            v-model="form.name"
+            :icon="mdiAccount"
+            name="login"
+            autocomplete="username"
+          />
+        </FormField>
+        <FormField label="Login" help="Please enter your email">
+          <FormControl
+            v-model="form.email"
             :icon="mdiAccount"
             name="login"
             autocomplete="username"

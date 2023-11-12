@@ -1,28 +1,6 @@
 <script setup>
-// import { useRouter } from 'vue-router'
-// import { useDarkModeStore } from '@/stores/darkMode.js'
-// import { gradientBgPurplePink } from '@/colors.js'
-// import SectionMain from '@/components/SectionMain.vue'
-// import CardBox from '@/components/CardBox.vue'
 import LayoutGuest from '@/layouts/LayoutGuest.vue'
 
-// const styles = ['white', 'basic']
-
-// const darkModeStore = useDarkModeStore()
-
-// darkModeStore.set(false)
-
-// const router = useRouter()
-
-// const handleStyleChange = (slug) => {
-//   document.documentElement.classList.forEach((token) => {
-//     if (token.indexOf('style') === 0) {
-//       document.documentElement.classList.replace(token, `style-${slug}`)
-//     }
-//   })
-
-//   router.push('/dashboard')
-// }
 </script>
 
 <template>
@@ -35,8 +13,9 @@ import LayoutGuest from '@/layouts/LayoutGuest.vue'
         <div class="nav-child">
             <img src="asxax.png" class="nasa-logo">
             <a href="#" class="link-a"><h1>Home</h1><i class="fa-solid fa-chevron-down"></i></a>
-            <a href="sound.html" class="link-a"><h1>Software</h1><i class="fa-solid fa-chevron-down"></i></a>
+            <a href="/#/register" class="link-a"><h1>Sign Up</h1><i class="fa-solid fa-chevron-down"></i></a>
         </div>
+        
     </div>
 
 
@@ -46,7 +25,7 @@ import LayoutGuest from '@/layouts/LayoutGuest.vue'
             <div class="background-abouts">
                 <h1>Education</h1>
                 <h2>Enjoy a cinema experience in you own home with exlusive premieres & hundreds of movies to rent or buy on your PlayStation console</h2>
-                <div class="back-button"><h3>Find out more</h3></div>
+                <div class="back-button"> <a href="/#/register"><h3>Find out more</h3></a></div>
             </div>
         </div>
       </div> 
@@ -184,7 +163,7 @@ Welcome to the future of education—Welcome to MindSetter, where continuous dev
 
     <div class="join-now">
         <div class="join-now-btn">
-            <button class="join-now-btn-h1"><h1>join-now</h1></button>
+          <a href="/#/register"><button class="join-now-btn-h1"><h1>join-now</h1></button></a>
         </div>
        
     </div>

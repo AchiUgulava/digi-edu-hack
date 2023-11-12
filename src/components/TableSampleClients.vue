@@ -83,8 +83,6 @@ const checked = (isChecked, client) => {
         <th v-if="checkable" />
         <th />
         <th>Name</th>
-        <th>Company</th>
-        <th>City</th>
         <th>Progress</th>
         <th>Created</th>
         <th />
@@ -98,12 +96,6 @@ const checked = (isChecked, client) => {
         </td>
         <td data-label="Name">
           {{ client.name }}
-        </td>
-        <td data-label="Company">
-          {{ client.company }}
-        </td>
-        <td data-label="City">
-          {{ client.city }}
         </td>
         <td data-label="Progress" class="lg:w-32">
           <progress class="flex w-2/5 self-center lg:w-full" max="100" :value="client.progress">

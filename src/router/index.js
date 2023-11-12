@@ -31,6 +31,55 @@ const routes = [
   },
   {
     meta: {
+      title: 'Calendar'
+    },
+    path: '/calendar',
+    name: 'calendar',
+    component: () => import('@/views/CalendarView.vue')
+  },
+  {
+    meta: {
+      title: 'Chat'
+    },
+    path: '/chat',
+    name: 'chat',
+    component: () => import('@/views/ChatView.vue')
+  },
+  {
+    meta: {
+      title: 'Calendar'
+    },
+    path: '/register',
+    name: 'register',
+    component: () => import('@/views/RegisterView.vue')
+  },
+  {
+    meta: {
+      title: 'setup'
+    },
+    path: '/setUp',
+    name: 'setUp',
+    component: () => import('@/views/SetUpView.vue')
+  },
+  {
+    meta: {
+      title: 'Notes'
+    },
+    path: '/notes',
+    name: 'notes',
+    component: () => import('@/views/NotesView.vue')
+  },
+  {
+    meta: {
+      title: 'Flash cards'
+    },
+    path: '/flashCards',
+    name: 'flashCards',
+    component: () => import('@/views/FlashCardsView.vue')
+  },
+  
+  {
+    meta: {
       title: 'Forms'
     },
     path: '/forms',
