@@ -23,8 +23,9 @@ import LayoutGuest from '@/layouts/LayoutGuest.vue'
         <div class="back-blur">
           <div class="back-half">
             <div class="background-abouts">
-                <h1>Education</h1>
-                <h2>Enjoy a cinema experience in you own home with exlusive premieres & hundreds of movies to rent or buy on your PlayStation console</h2>
+                <h1>MindSetter</h1>
+                <h2> Declutter your mind, make space for cognition </h2>
+                <div class="p-6"></div>
                 <div class="back-button"> <a href="/#/register"><h3>Find out more</h3></a></div>
             </div>
         </div>
@@ -334,7 +335,7 @@ Welcome to the future of education—Welcome to MindSetter, where continuous dev
     background-repeat: no-repeat;
     width: 100%;
     height: 550px;
-    background-image: url(Technology.jpg);
+    background-image: url(/teqnologia.png);
     margin-top: 1px;
 }
 .moon{
