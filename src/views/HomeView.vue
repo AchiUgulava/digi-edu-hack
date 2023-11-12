@@ -11,7 +11,7 @@ import LayoutGuest from '@/layouts/LayoutGuest.vue'
 
     <div class="nav">
         <div class="nav-child">
-            <img src="/asxax.png" class="logo">
+            <img src="/asxax.png" class="nasa-logo">
             <a href="#" class="link-a"><h1>Home</h1><i class="fa-solid fa-chevron-down"></i></a>
             <a href="/#/register" class="link-a"><h1>Sign Up</h1><i class="fa-solid fa-chevron-down"></i></a>
         </div>
@@ -83,14 +83,15 @@ import LayoutGuest from '@/layouts/LayoutGuest.vue'
 
 
         
-       <div class="button-div">
+       <!-- <div class="button-div">
 <button  type="submit" >
     learn more
 </button>
 
-</div>
+</div> -->
         </div>
         <div class="SoundsOfSpacehistori-img"> 
+            <img src="/image15.png" alt="">
        
         </div>
      
@@ -152,7 +153,11 @@ Welcome to the future of education—Welcome to MindSetter, where continuous dev
 
 
     </div>
-
+    <div class="SoundsOfSpacehistori-img"> 
+            <img src="/hashu.png" alt="">
+       
+        </div>
+     
 
     </div>
 
@@ -175,7 +180,7 @@ Welcome to the future of education—Welcome to MindSetter, where continuous dev
 <footer>
 
     <div class="footer-main">
-    
+    <img  class="nasa-logo" src="/asxax.png" alt="">
         <div class="footer-txt-1">
     
     <h1>The National Aeronautics <br> and
@@ -511,14 +516,15 @@ Welcome to the future of education—Welcome to MindSetter, where continuous dev
     font-size: larger;
 }
 
-.SoundsOfSpacehistori-img{
-    background-image: url(image15.png);
+.SoundsOfSpacehistori-img img {
     background-position: 0% 75%;
     background-size: 100%, 5%, 25%;
     border-radius: 10px;
     margin-right: 53px;
     margin-top: 42px;
     width: 570px;
+    height: 350px;
+    object-fit: cover;
 }
 
 .SoundsOfSpacehistori{
