@@ -11,7 +11,7 @@ import LayoutGuest from '@/layouts/LayoutGuest.vue'
 
     <div class="nav">
         <div class="nav-child">
-            <img src="asxax.png" class="nasa-logo">
+            <img src="/asxax.png" class="logo">
             <a href="#" class="link-a"><h1>Home</h1><i class="fa-solid fa-chevron-down"></i></a>
             <a href="/#/register" class="link-a"><h1>Sign Up</h1><i class="fa-solid fa-chevron-down"></i></a>
         </div>
@@ -58,9 +58,9 @@ import LayoutGuest from '@/layouts/LayoutGuest.vue'
 
 
     <div class="three-image">
-        <div class="three-image-child"><img src="foto2.png"> <div class="black-blur1" onclick="nasaActive()"></div></div>
-        <div class="three-image-child"><img src="image12.png"> <div class="black-blur2" onclick="moonActive()"></div></div>
-        <div class="three-image-child"><img src="afrika.png">  <div class="black-blur3" onclick="sspaceActive()"></div></div>
+        <div class="three-image-child"><img src="/foto2.png"> <div class="black-blur1" onclick="nasaActive()"></div></div>
+        <div class="three-image-child"><img src="/image12.png"> <div class="black-blur2" onclick="moonActive()"></div></div>
+        <div class="three-image-child"><img src="/afrika.png">  <div class="black-blur3" onclick="sspaceActive()"></div></div>
     </div>
     
 
@@ -104,7 +104,7 @@ import LayoutGuest from '@/layouts/LayoutGuest.vue'
 <div class="videop">
 
 
-    <img class="video" src="image16.png" alt="">
+    <img class="video" src="/image16.png" alt="">
     <div class="video-text">
         <h1>
             Research Alignment
@@ -153,9 +153,6 @@ Welcome to the future of education—Welcome to MindSetter, where continuous dev
 
     </div>
 
-      <div class="SoundsOfSpace-img">
-            <img class="SoundsOfSpace-img" src="images/sound4.jpg" alt="">
-        </div>
 
     </div>
 
@@ -178,9 +175,6 @@ Welcome to the future of education—Welcome to MindSetter, where continuous dev
 <footer>
 
     <div class="footer-main">
-        <div class="img-footer">
-            <img src="asxax.png" alt="">
-        </div>
     
         <div class="footer-txt-1">
     
@@ -189,7 +183,6 @@ Welcome to the future of education—Welcome to MindSetter, where continuous dev
     <h2>MindSetter explores the unknown in air and MindSetter, <br> innovates for the benefit of humanity, and inspires the <br> world through discovery.</h2>
     <h3>About MindSetter's Mission</h3>
     <h4>Join Us</h4>
-    <img src="./Screenshot 2023-10-07 at 15.57.25-fotor-bg-remover-2023100721016.png" alt="">
 
 
 
@@ -227,12 +220,7 @@ Welcome to the future of education—Welcome to MindSetter, where continuous dev
     </div>
     
     
-    <div class="footer-txt-2">
-    
-        <h1>Follow MindSetter</h1>
-        <img src="./Screenshot 2023-10-07 at 16.05.42-fotor-bg-remover-2023100721332.png" alt="">
-    
-    </div>
+
     
     
     <div class="footer-sections-3">
