@@ -4,7 +4,7 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import { useMainStore } from '@/stores/main.js'
-import Vue3TouchEvents from 'vue3-touch-events';
+import Vue3TouchEvents from '../node_modules/vue3-touch-events';
 import './css/main.css'
 
 // Init Pinia
